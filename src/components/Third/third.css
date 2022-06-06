@@ -1,0 +1,132 @@
+.t{
+    height: 200vh;
+    font-family: "bord";
+}
+
+.rec{
+    color: black;
+    font-size: 10vw;
+    position: absolute;
+    text-align: left;
+    margin-top: 20%;
+    left: 73%;
+    line-height: 120px;
+}
+
+.oval-2{
+    height: 800px;
+    width: 50%;
+    left: 35%;
+    position: relative;
+    margin-top: -180%;
+    color: black;
+    transform: rotate(310deg);
+    z-index: 1;
+}
+
+.rec-1{
+    top: 35%;
+    width: 45%;
+    height: 50%;
+    border-radius: 30px;
+    border:  1px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.title-1{
+    font-size: 3vw;
+    font-family: "nanu";
+    position: absolute;
+    left: 5%;
+}
+
+.des-1{
+    font-size: 1.3vw;
+    font-family: "nanu";
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.sub-rec-1{
+    top: 20%;
+    width: 98%;
+    height: 75%;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+
+.picdrop{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sub-rec-1 img{
+  transform-origin: 50% 25%;
+  transition: transform 5s, filter 3s ease-in-out;
+  overflow: hidden;
+}
+
+.sub-rec-1:hover img{
+    transform: scale(3);
+    overflow: hidden;
+}
+
+
+.rec-2{
+    top: -5%;
+    width: 53.5%;
+    left: 45.5%;
+    height: 50%;
+    border-radius: 30px;
+    border:  1px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+.rec-3{
+    top: -15%;
+    width: 45%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+.rec-4{
+    top: -50%;
+    left: 45.5%;
+    width: 53.5%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: white;
+}
+

@@ -1,0 +1,73 @@
+.f{
+    height: 300vh;
+    font-family: "bord";
+    margin-top: 50%;
+}
+
+.about-agency{
+    font-size: 4vw;
+    font-weight: bold;
+    position: absolute;
+    left: 20%;
+    margin-top: 5%;
+
+}
+
+.agency{
+    position: absolute;
+    margin-top: 75%;
+    left: 20%;
+    font-size: 17vw;
+    color: black;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.agen{
+    top: 1050px;
+    min-width: auto;
+    min-height: 99%;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.agency-vid{
+    border-radius: 30px;
+}
+
+
+
+.Button-pos {
+    position: relative;
+	top: 10px;
+    float: left;
+    left: 50px;
+	border-radius: 28px;
+	border: 2px dotted black;
+	display: inline-block;
+	cursor: pointer;
+	color: black;
+    font-family: "nanu";
+	font-size: 1.1vw;
+	padding: 20px 15px;
+	text-decoration: none;
+}
+.Button-pos:hover {
+	background-color:black;
+    color: white;
+    border: none;
+}
+
+.about-text{
+    position: relative;
+    font-family: "nanu";
+	font-size: 1.1vw;
+    font-weight: 200;
+    text-align: left;
+    float: right;
+    right: 30px;
+    top: -40px;
+}

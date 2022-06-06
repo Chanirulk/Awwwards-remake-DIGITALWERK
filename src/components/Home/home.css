@@ -1,0 +1,157 @@
+.h{
+    height: 100vh;
+    font-family: "bord";
+}
+
+.h-main{
+    top: 5px;
+    min-width: auto;
+    min-height: 99%;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.backdrop{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo{
+    color: white;
+    font-size: 2vw;
+    font-family: "nanu";
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    z-index: 1;
+}
+
+.nav-links{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Button {
+    position: relative;
+	top: 25px;
+    margin: 0px 5px 0px;
+	border-radius: 28px;
+	border: 2px dotted white;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+    font-family: "nanu";
+	font-size: 1.1vw;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.Button:hover {
+	background-color:white;
+    color: black;
+    border: none;
+}
+
+.langu{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    left: 88%;
+}
+
+
+.Button {
+    position: relative;
+	top: 25px;
+    margin: 0px 5px 0px;
+	border-radius: 28px;
+	border: 2px dotted white;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+    font-family: "nanu";
+	font-size: 1.1vw;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.Button:hover {
+	background-color:white;
+    color: black;
+    border: none;
+}
+
+.heading{
+    position: absolute;
+    color: white;
+    font-size: 14vw;
+    line-height: 180px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.view{
+    z-index: 1; 
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Button-view {
+    position: relative;
+    margin: 0px 5px 0px;
+	border-radius: 28px;
+	border: 2px dotted white;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+    font-family: "nanu";
+	font-size: 1.1vw;
+	padding: 20px 15px;
+	text-decoration: none;
+}
+.Button-view:hover {
+	background-color:white;
+    color: black;
+    border: none;
+}
+
+.date{
+    z-index: 1; 
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1vw;
+    font-family: "nanu";
+}
+
+.company{
+    z-index: 1; 
+    position: absolute;
+    top: 92%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1vw;
+    font-family: "nanu";
+}
+
+.ck{
+    height: auto;
+    width: 50px;
+}

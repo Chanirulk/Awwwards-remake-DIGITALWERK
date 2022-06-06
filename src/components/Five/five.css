@@ -1,0 +1,234 @@
+.fi{
+    height: 150vh;
+    font-family: "bord";
+}
+
+.blog-back{
+    top: 5px;
+    min-width: 99%;
+    min-height: 110%;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+    background-color: black;
+    z-index: 1;
+}
+
+.blog-head{
+    position: absolute;
+    margin-top: 10%;
+    left: 80%;
+    font-size: 17vw;
+    color: white;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.blog-about{
+    font-family: "nanu";
+	font-size: 1.1vw;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    color: white;
+}
+
+.cards{
+    top: 400px;
+    left: 40px;
+    width: 23%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.card-head{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+	font-size: 3vw;
+    text-align: left;
+    position: absolute;
+    font-weight: 700;
+    left: 10px;
+    right: 3px;
+    top: 10px;
+}
+
+
+.cards-2{
+    top: 450px;
+    left: 450px;
+    width: 23%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.card-head-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+	font-size: 3vw;
+    text-align: left;
+    position: absolute;
+    font-weight: 700;
+    left: 10px;
+    right: 3px;
+    top: 10px;
+}
+
+
+.cards-3{
+    top: 400px;
+    left: 870px;
+    width: 23%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.cards-4{
+    top: 1000px;
+    left: 100px;
+    width: 23%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.cards-5{
+    top: 1000px;
+    left: 600px;
+    width: 23%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.cards-6{
+    top: 1000px;
+    left: 1000px;
+    width: 23%;
+    height: 45%;
+    border-radius: 30px;
+    border:  1px dashed white;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.footer{
+    top: 1%;
+    min-width: 99%;
+    min-height: 40%;
+    border-radius: 30px;
+    border: 1px dotted black;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.digi{
+    font-family: "nanu";
+	font-size: 1.1vw;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 43%;
+    text-align: center;
+}
+
+.get-in{
+	font-size: 19vw;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: -100px;
+    left: 13%;
+    text-align: center;
+}
+
+.credit{
+    font-size: 10vw;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    left: 10px;
+}
+
+.credit:after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.credit:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+.footer:hover{
+    color: white;
+    background-color: black;
+    border: 1px dotted white;
+}
+.get-in:hover{
+    color: white;
+}
+
+
+.get-in:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.get-in:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

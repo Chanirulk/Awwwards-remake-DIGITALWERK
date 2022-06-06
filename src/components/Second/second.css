@@ -1,0 +1,47 @@
+.s{
+    height: 150vh;
+    font-family: "bord";
+}
+
+.oval{
+    height: 800px;
+    width: 50%;
+    left: 28%;
+    margin-top: -200px;
+    position: absolute;
+    color: black;
+    transform: rotate(5deg);
+}
+
+.mani{
+    position: absolute;
+    margin-top: 20%;
+    left: 73%;
+    font-size: 17vw;
+    color: black;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.text-way{
+    font-family: "nanu";
+    text-align: left;
+}
+
+.about{
+    position: absolute;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 30%;
+    left: 27%;
+    transform: translate(-50%, 50%);
+}
+
+.about-2{
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 40%;
+    font-family: "nanu";
+    left: 27%;
+    transform: translate(-50%, 50%);
+}
